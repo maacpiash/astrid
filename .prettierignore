@@ -1,0 +1,10 @@
+node_modules
+.yarn
+yarn.lock
+*.json
+.pnp*
+public
+astro.config.mjs
+.vscode
+.yarn
+.pnp*

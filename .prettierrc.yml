@@ -1,0 +1,13 @@
+arrowParens: avoid
+printWidth: 120
+semi: false
+singleQuote: true
+tabWidth: 2
+trailingComma: es5
+useTabs: false
+singleAttributePerLine: false
+overrides:
+  - files: src/**/*.astro
+    options:
+      tabWidth: 4
+      useTabs: true
