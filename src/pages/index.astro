@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
+import { Counter } from '../components/Counter'
+import { Timer } from '../components/Timer'
 ---
 
 <Layout title="Welcome to Astro.">
@@ -32,6 +34,8 @@ import Card from '../components/Card.astro'
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
 		</ul>
+		<Counter client:load />
+		<Timer client:load />
 	</main>
 </Layout>
 
