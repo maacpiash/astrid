@@ -5,5 +5,5 @@ export function Timer() {
   const timer = setInterval(() => setTime(time() + 1), 1000)
   onCleanup(() => clearInterval(timer))
 
-  return <div>You've been on this page for {time()} seconds.</div>
+  return <h2>You've been on this page for {time()} seconds.</h2>
 }
